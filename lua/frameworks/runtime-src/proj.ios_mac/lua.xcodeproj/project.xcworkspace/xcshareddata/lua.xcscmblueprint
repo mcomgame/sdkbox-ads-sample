@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0FA5A863E7701449DA77BB614B4BCCCAAC6AF008",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FA5A863E7701449DA77BB614B4BCCCAAC6AF008" : 0,
+    "1B6100D5ABAE1D62C09C9B8653D821FECCA717EE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "43D3428F-C38B-47B3-83A0-15041869B0C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FA5A863E7701449DA77BB614B4BCCCAAC6AF008" : "sdkbox-ads-sample\/",
+    "1B6100D5ABAE1D62C09C9B8653D821FECCA717EE" : "sdkbox-ads-sample\/cocos2d-x-3.6-lib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lua",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lua\/frameworks\/runtime-src\/proj.ios_mac\/lua.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sdkbox\/sdkbox-ads-sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FA5A863E7701449DA77BB614B4BCCCAAC6AF008"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yinjimmy\/cocos2d-x-3.6-lib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B6100D5ABAE1D62C09C9B8653D821FECCA717EE"
+    }
+  ]
+}
