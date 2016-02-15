@@ -22,8 +22,6 @@ js/frameworks/runtime-src/proj.android/gen/
 js/frameworks/runtime-src/proj.android/obj/
 js/frameworks/runtime-src/proj.android/local.properties
 js/frameworks/runtime-src/proj.android/project.properties
-js/frameworks/runtime-src/proj.ios_mac/js.xcodeproj/project.xcworkspace/
-js/frameworks/runtime-src/proj.ios_mac/js.xcodeproj/xcuserdata/
 js/frameworks/runtime-src/proj.ios_mac/build
 js/simulator/
 lua/frameworks/runtime-src/proj.android/bin/
@@ -32,8 +30,6 @@ lua/frameworks/runtime-src/proj.android/local.properties
 lua/frameworks/runtime-src/proj.android/obj/
 lua/frameworks/runtime-src/proj.android/project.properties
 lua/frameworks/runtime-src/proj.ios_mac/build
-lua/frameworks/runtime-src/proj.ios_mac/lua.xcodeproj/project.xcworkspace/
-lua/frameworks/runtime-src/proj.ios_mac/lua.xcodeproj/xcuserdata/
 lua/simulator/
 
 cpp/backup-*
