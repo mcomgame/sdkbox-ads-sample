@@ -13,7 +13,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="publisher" android:scheme="_replace_with_your_bee7_scheme_" />
+                <data android:host="publisher" android:scheme="bee7orgcocos2dxbee7sample" />
             </intent-filter>
         </activity>
         <activity android:configChanges="keyboardHidden|orientation" android:name="com.jirbo.adcolony.AdColonyOverlay" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />

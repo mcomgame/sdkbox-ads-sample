@@ -20,41 +20,7 @@ namespace sdkbox {
     class PluginSdkboxAdsListener {
     public:
 
-        /**
-         * This method notifies back with the AdUnit identifier, the Ad name it tried to play,
-         * and an enum type of the action it is communicating about.
-         * The Action type is the following enum:
-         *
-         * <code>
-         *  enum AdActionType {
-         *      LOADED=0,               // content loaded
-         *      LOAD_FAILED,            // content failed to load
-         *
-         *      CLICKED,                // clicked on content
-         *
-         *      REWARD_STARTED,     // reward started
-         *      REWARD_ENDED,           // reward achieved
-         *      REWARD_CANCELED,        // reward aborted
-         *
-         *      AD_STARTED,             // start showing
-         *      AD_CANCELED,            // start showing.
-         *      AD_ENDED,               // content shown
-         *
-         *      ADACTIONTYPE_UNKNOWN    // mostly on error situations.
-         *  };
-         *  </code>
-         *
-         *  Not all AdUnits will expose all types of events.
-         *  For example, Chartboost notifies CLICKED action, but AdColony does not.
-         *  Each AdUnit’s documentation will reflect what events will notify.
-         */
         virtual void onAdAction( const std::string& ad_unit_id, const std::string& zone, sdkbox::AdActionType action_type) = 0;
-
-        /**
-         * This method will be called for REWARDED ads.
-         * Some AdUnits offer finer control on the reward lifecycle, like whether it was cancelled,
-         * or the amount of elements earned, while others don't.
-         */
         virtual void onRewardAction( const std::string& ad_unit_id, const std::string& zone_id, float reward_amount, bool reward_succeed) = 0;
     };
 
@@ -69,19 +35,14 @@ namespace sdkbox {
         /**
          * Initialize the plugin instance. 
          * The plugin initializes from the sdkbox_config.json file and reads configuration of the form:
-         *
-         *  <code>
          *    "SdkboxAds": {
          *        "units": [ "AdColony", "Fyber" ],
          *        "placements": [ {} ]
-         *    }
-         *  </code>
+         *    } 
          *
          * The "units" array references other plugins' configuration. Sdkboxads mediates between other plugins
          * and/or simplifies interaction with them.
          * The "placements" block will be of the form:
-         *
-         *  <code>
          *     {
          *          “id” : “placement_id”,
          *          "strategy" : "round-robin", // only value by now.
@@ -89,30 +50,22 @@ namespace sdkbox {
          *              <UnitDefinition>
          *          ]
          *      }
-         *  </code>
          *
          * and each UnitDefinition as:
          *
-         *  <code>
          *      {
          *          “Unit” : result_of_AdUnit.getId(),
-         *          “name” : <a zone, place, location, existing in a Plugin's config>,
+         *          “type” : “REWARDED” | “INTERSTITIAL” | “VIDEO” | “BANNER”,
          *          “params” : json_object
          *      }
-         *  </code>
          *
          * For a sample Sdkboxads config, check the example at Sdkbox github public repository.
-         * The "params" configuration block will allow to pass in specific information to play ads
-         * like location, position, etc.
-         *
-         * Check each AdUnit's documentation to find specifics on its configuration.
          */ 
         static void init();
 
         /**
          * Set Sdkboxads' plugin listener.
-         * This listener will expose for each registered AdUnits, events related to Ads and Rewards.
-         * In SdkboxAds, an Ad refers generally to VIDEO, INTERSTITIAL and BANNER.
+         * This listener will expose for each registered AdUnits events related to Ads and Rewards.
          * Note that some ad units may have only Ads.
          */
         static void setListener(sdkbox::PluginSdkboxAdsListener *listener);
@@ -152,27 +105,13 @@ namespace sdkbox {
         
         /**
          * A placement is a collection of mediated AdUnits.
-         * When you want to invoke a placement, just call this method.
-         * If the placement does not exist, the call will just be ignored.
-         * A placement will take care of AdUnit’s cache control, so if the current AdUnit has no
-         * cached content, or the AdUnit fails to load an ad, the next adUnit will be used.
-         *
-         * The placement will cycle throughout all the AdUnits it references, in a round robin fashion.
-         * In the short term, new placement strategies will be added.
+         * The placement will cycle throughout all the AdUnits it references, in a 
          */
         static void placement(const std::string& placement);
 
         /**
          * Manage cache control policies.
-         * Not all AdUnits expose cache control while some others expose fine-grained cache control.
-         * For example Chartboost offers specific cache control for each location, as well as
-         * general Ads cache control.
-         *
-         * This method interfaces with the AdUnit’s cache mechanism. If no cache control is exposed
-         * for a given AdUnit, the call will silently be ignored.
-         *
-         * Each AdUnit will document what valid values to pass to the cacheOpts parameter.
-         * E.g. for Chartboost, these are valid values:
+         * Not all AdUnits expose cache control.
          *
          * cacheOpts for Chartboost:
          *
@@ -181,13 +120,10 @@ namespace sdkbox {
          *
          *      e.g:
          *
-         *  <code>
          *      {
-         *          "Default": true, // a configuration location
-         *          "Level Complete": true, // a configuration location
-         *          "ADS": true // a general placeholder chartboost specific
+         *          "Default" : "true",
+         *          "Level complete" : false
          *      }
-         *  </code>
          */
         static void cacheControl( const std::string& ad_unit, const std::map<std::string, std::string>& cacheOpts );
 

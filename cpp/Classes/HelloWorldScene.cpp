@@ -70,16 +70,16 @@ bool HelloWorld::init()
                                                    }),
                               MenuItemFont::create("Fyber Interstital",
                                                    [](Object *obj) {
-                                                       sdkbox::PluginSdkboxAds::playAd("Fyber", "INTERSTITIAL", sdkbox::AdUnitParams() );
+                                                       sdkbox::PluginSdkboxAds::playAd("Fyber", "INTERSTITIAL" );
                                                    }),
                               MenuItemFont::create("Fyber Reward",
                                                    [](Object *obj) {
-                                                       sdkbox::PluginSdkboxAds::playAd("Fyber", "REWARDED", sdkbox::AdUnitParams() );
+                                                       sdkbox::PluginSdkboxAds::playAd("Fyber", "REWARDED" );
                                                    }),
                               MenuItemFont::create("Bee7 (Portrait Only!)",
                                                    [](Object *obj) {
                                                        // TBD: need to switch to playAd call
-                                                       sdkbox::PluginBee7::showGameWall();
+                                                       sdkbox::PluginSdkboxAds::playAd("Bee7", "any" );
                                                    }),
                               MenuItemFont::create("Chartboost Interstitial",
                                                    [](Object *obj) {
