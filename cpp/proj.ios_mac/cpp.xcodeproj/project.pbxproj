@@ -16,7 +16,6 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		3F0F4FE7BFD23C718A7344DE /* res in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A4B559B3019F2C7B0E080 /* res */; };
 		418E4EA9B92F58AFBCDEAACD /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454B4CCC949F26D6BEA760F9 /* GameController.framework */; };
-		44094FD1BB2E40D0A203271E /* PluginAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BA46C29266AC753E8CF973 /* PluginAdMob.framework */; };
 		4437498AA6ECF32C7B60F893 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D344A1A525EBFBAD3266FD /* SystemConfiguration.framework */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
@@ -58,23 +57,27 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		670A4CDFAC7F03E645EFA1E1 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88045AA84DB1ECE58008062 /* VungleSDK.framework */; };
-		69F04846BBCBB2488C00117A /* PluginVungle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5B4BB599F6D7298A9A17D9 /* PluginVungle.framework */; };
 		6F184B438EFB81222AF34B2C /* res in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A4B559B3019F2C7B0E080 /* res */; };
 		7AAB4DED8C0D79475338C105 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C4AEF8F4F80BD97EBA84E /* CoreText.framework */; };
-		7D824E13947B419121805898 /* PluginFyber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1147A8AF3CCCD99A82ACB2 /* PluginFyber.framework */; };
 		95154C17A2AF9DB1D8D54692 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68C4C9F999EB082A920543E /* MessageUI.framework */; };
-		96C123141C73203100250098 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C123131C73203100250098 /* sdkbox.framework */; };
+		96460EEC1C74DB6800DDDDE8 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EEA1C74DB6800DDDDE8 /* sdkbox.framework */; };
+		96460EF51C74DE0300DDDDE8 /* PluginAdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EED1C74DE0300DDDDE8 /* PluginAdColony.framework */; };
+		96460EF61C74DE0300DDDDE8 /* PluginAdMob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EEE1C74DE0300DDDDE8 /* PluginAdMob.framework */; };
+		96460EF71C74DE0300DDDDE8 /* PluginBee7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EEF1C74DE0300DDDDE8 /* PluginBee7.framework */; };
+		96460EF81C74DE0300DDDDE8 /* PluginChartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EF01C74DE0300DDDDE8 /* PluginChartboost.framework */; };
+		96460EF91C74DE0300DDDDE8 /* PluginFyber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EF11C74DE0300DDDDE8 /* PluginFyber.framework */; };
+		96460EFA1C74DE0300DDDDE8 /* PluginInMobi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EF21C74DE0300DDDDE8 /* PluginInMobi.framework */; };
+		96460EFB1C74DE0300DDDDE8 /* PluginSdkboxAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EF31C74DE0300DDDDE8 /* PluginSdkboxAds.framework */; };
+		96460EFC1C74DE0300DDDDE8 /* PluginVungle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96460EF41C74DE0300DDDDE8 /* PluginVungle.framework */; };
 		A4A54572912CE7481BFA9CD8 /* Bee7GWResources.bundle/ in Resources */ = {isa = PBXBuildFile; fileRef = 590A4A9186FB7BB6458DFDF4 /* Bee7GWResources.bundle/ */; };
 		ABA741D493EFCFEFE3F04EF4 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326149229DF78DEA51167BD1 /* AdColony.framework */; };
 		B05F4244979DC4718F5047F6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B83422B804C4633C265672F /* GoogleMobileAds.framework */; };
 		B24D4846A08000C197F95B14 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBE4CA8BEACDC989A8863CA /* libz.1.2.5.dylib */; };
-		B261438CA196A235AC15A69C /* PluginAdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFF4ADD9A0B2BD0970C8637 /* PluginAdColony.framework */; };
 		BB7D45B2B5B377888E7B43E7 /* sdkbox_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A53407FACDB141EE03DC384 /* sdkbox_config.json */; };
 		BBB7482B83CC52FB96386E20 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5047DE94648BF51ED7DC7F /* StoreKit.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
-		C2D74A6B92BE0F5D9DF191C8 /* PluginSdkboxAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7948C4A975452DB0C6924F /* PluginSdkboxAds.framework */; };
 		C9E142A0B1DFC19352E12BC1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08A49E0BE98BE33EFE825BB /* MediaPlayer.framework */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
@@ -84,8 +87,6 @@
 		E02A4D6FA046BCD155D523EA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4304E818325A7FA37D07E1C /* Social.framework */; };
 		E721485AA5AE39CC5CE1B090 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1240B9B98CD6DD6A21FB48 /* Chartboost.framework */; };
 		E7984CB3AA91603D01934355 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 704E4D368E9C9451C3E2E2F4 /* libsqlite3.dylib */; };
-		E94D4282BCD86298BB0EF6B9 /* PluginBee7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12D4F2480BBB3D5235186B7 /* PluginBee7.framework */; };
-		EF0B47DCA2F2662E5804771B /* PluginChartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38543768ED52AA708F29B60 /* PluginChartboost.framework */; };
 		F5B34481957B5BF467C7CC03 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8541A18FA749AE00449A79 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +109,6 @@
 		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
 		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		4AD64107B1FA0D74CD2D7E63 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		4DFF4ADD9A0B2BD0970C8637 /* PluginAdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginAdColony.framework; sourceTree = SOURCE_ROOT; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
 		503AE0FB17EB989F00D1A890 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppController.mm; path = ios/AppController.mm; sourceTree = SOURCE_ROOT; };
 		503AE0FC17EB989F00D1A890 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = SOURCE_ROOT; };
@@ -141,14 +141,19 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		590A4A9186FB7BB6458DFDF4 /* Bee7GWResources.bundle/ */ = {isa = PBXFileReference; lastKnownFileType = "?"; path = Bee7GWResources.bundle/; sourceTree = SOURCE_ROOT; };
-		5D5B4BB599F6D7298A9A17D9 /* PluginVungle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginVungle.framework; sourceTree = SOURCE_ROOT; };
 		704E4D368E9C9451C3E2E2F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
-		76BA46C29266AC753E8CF973 /* PluginAdMob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginAdMob.framework; sourceTree = SOURCE_ROOT; };
-		7B7948C4A975452DB0C6924F /* PluginSdkboxAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginSdkboxAds.framework; sourceTree = SOURCE_ROOT; };
 		7B83422B804C4633C265672F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = SOURCE_ROOT; };
 		81D344A1A525EBFBAD3266FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		946242158685D599343422DC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		96C123131C73203100250098 /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = "<group>"; };
+		96460EEA1C74DB6800DDDDE8 /* sdkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sdkbox.framework; sourceTree = "<group>"; };
+		96460EED1C74DE0300DDDDE8 /* PluginAdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginAdColony.framework; sourceTree = "<group>"; };
+		96460EEE1C74DE0300DDDDE8 /* PluginAdMob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginAdMob.framework; sourceTree = "<group>"; };
+		96460EEF1C74DE0300DDDDE8 /* PluginBee7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginBee7.framework; sourceTree = "<group>"; };
+		96460EF01C74DE0300DDDDE8 /* PluginChartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginChartboost.framework; sourceTree = "<group>"; };
+		96460EF11C74DE0300DDDDE8 /* PluginFyber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginFyber.framework; sourceTree = "<group>"; };
+		96460EF21C74DE0300DDDDE8 /* PluginInMobi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginInMobi.framework; sourceTree = "<group>"; };
+		96460EF31C74DE0300DDDDE8 /* PluginSdkboxAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginSdkboxAds.framework; sourceTree = "<group>"; };
+		96460EF41C74DE0300DDDDE8 /* PluginVungle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginVungle.framework; sourceTree = "<group>"; };
 		9BBE4CA8BEACDC989A8863CA /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.1.2.5.dylib; sourceTree = DEVELOPER_DIR; };
 		B68C4C9F999EB082A920543E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -162,13 +167,10 @@
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		D88045AA84DB1ECE58008062 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = SOURCE_ROOT; };
-		E12D4F2480BBB3D5235186B7 /* PluginBee7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginBee7.framework; sourceTree = SOURCE_ROOT; };
 		E4304E818325A7FA37D07E1C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
 		ED8541A18FA749AE00449A79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		F08A49E0BE98BE33EFE825BB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		F38543768ED52AA708F29B60 /* PluginChartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginChartboost.framework; sourceTree = SOURCE_ROOT; };
 		F66C4AEF8F4F80BD97EBA84E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		FE1147A8AF3CCCD99A82ACB2 /* PluginFyber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginFyber.framework; sourceTree = SOURCE_ROOT; };
 		FE5047DE94648BF51ED7DC7F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF9A4C1A9C06F5DBF9C12C39 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -190,8 +192,8 @@
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
+				96460EF91C74DE0300DDDDE8 /* PluginFyber.framework in Frameworks */,
 				1E4146BB8C923CA52DB7FFF8 /* libcocos2d iOS.a in Frameworks */,
-				C2D74A6B92BE0F5D9DF191C8 /* PluginSdkboxAds.framework in Frameworks */,
 				486044F9A835EB14CDB4CB87 /* AdSupport.framework in Frameworks */,
 				4E9C4BDCA2BBF5056036F8B9 /* CoreMedia.framework in Frameworks */,
 				E7984CB3AA91603D01934355 /* libsqlite3.dylib in Frameworks */,
@@ -200,25 +202,26 @@
 				4437498AA6ECF32C7B60F893 /* SystemConfiguration.framework in Frameworks */,
 				1BB548FCBCAB31ED4633088D /* WebKit.framework in Frameworks */,
 				418E4EA9B92F58AFBCDEAACD /* GameController.framework in Frameworks */,
-				96C123141C73203100250098 /* sdkbox.framework in Frameworks */,
-				B261438CA196A235AC15A69C /* PluginAdColony.framework in Frameworks */,
+				96460EEC1C74DB6800DDDDE8 /* sdkbox.framework in Frameworks */,
 				ABA741D493EFCFEFE3F04EF4 /* AdColony.framework in Frameworks */,
+				96460EFB1C74DE0300DDDDE8 /* PluginSdkboxAds.framework in Frameworks */,
+				96460EF61C74DE0300DDDDE8 /* PluginAdMob.framework in Frameworks */,
 				B24D4846A08000C197F95B14 /* libz.1.2.5.dylib in Frameworks */,
 				D7784D57B423219A6D35032E /* CoreTelephony.framework in Frameworks */,
 				49904BE79115173921BC924D /* EventKit.framework in Frameworks */,
 				11A349D39D91964889BE7287 /* EventKitUI.framework in Frameworks */,
+				96460EF81C74DE0300DDDDE8 /* PluginChartboost.framework in Frameworks */,
 				95154C17A2AF9DB1D8D54692 /* MessageUI.framework in Frameworks */,
 				E02A4D6FA046BCD155D523EA /* Social.framework in Frameworks */,
-				EF0B47DCA2F2662E5804771B /* PluginChartboost.framework in Frameworks */,
 				E721485AA5AE39CC5CE1B090 /* Chartboost.framework in Frameworks */,
-				44094FD1BB2E40D0A203271E /* PluginAdMob.framework in Frameworks */,
 				B05F4244979DC4718F5047F6 /* GoogleMobileAds.framework in Frameworks */,
-				69F04846BBCBB2488C00117A /* PluginVungle.framework in Frameworks */,
 				670A4CDFAC7F03E645EFA1E1 /* VungleSDK.framework in Frameworks */,
-				7D824E13947B419121805898 /* PluginFyber.framework in Frameworks */,
+				96460EFC1C74DE0300DDDDE8 /* PluginVungle.framework in Frameworks */,
+				96460EF51C74DE0300DDDDE8 /* PluginAdColony.framework in Frameworks */,
 				F5B34481957B5BF467C7CC03 /* CoreLocation.framework in Frameworks */,
-				E94D4282BCD86298BB0EF6B9 /* PluginBee7.framework in Frameworks */,
+				96460EF71C74DE0300DDDDE8 /* PluginBee7.framework in Frameworks */,
 				7AAB4DED8C0D79475338C105 /* CoreText.framework in Frameworks */,
+				96460EFA1C74DE0300DDDDE8 /* PluginInMobi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +323,16 @@
 				D44C620B132DFF330009C878 /* OpenAL.framework */,
 				5087E78A17EB975400C73F5D /* OpenGL.framework */,
 				BF170DB012928DE900B8313A /* OpenGLES.framework */,
-				96C123131C73203100250098 /* sdkbox.framework */,
-				4DFF4ADD9A0B2BD0970C8637 /* PluginAdColony.framework */,
-				76BA46C29266AC753E8CF973 /* PluginAdMob.framework */,
-				E12D4F2480BBB3D5235186B7 /* PluginBee7.framework */,
-				F38543768ED52AA708F29B60 /* PluginChartboost.framework */,
-				FE1147A8AF3CCCD99A82ACB2 /* PluginFyber.framework */,
-				7B7948C4A975452DB0C6924F /* PluginSdkboxAds.framework */,
-				5D5B4BB599F6D7298A9A17D9 /* PluginVungle.framework */,
+				96460EED1C74DE0300DDDDE8 /* PluginAdColony.framework */,
+				96460EEE1C74DE0300DDDDE8 /* PluginAdMob.framework */,
+				96460EEF1C74DE0300DDDDE8 /* PluginBee7.framework */,
+				96460EF01C74DE0300DDDDE8 /* PluginChartboost.framework */,
+				96460EF11C74DE0300DDDDE8 /* PluginFyber.framework */,
+				96460EF21C74DE0300DDDDE8 /* PluginInMobi.framework */,
+				96460EF31C74DE0300DDDDE8 /* PluginSdkboxAds.framework */,
+				96460EF41C74DE0300DDDDE8 /* PluginVungle.framework */,
 				BF1C47EA1293683800B63C5D /* QuartzCore.framework */,
+				96460EEA1C74DB6800DDDDE8 /* sdkbox.framework */,
 				52B47A461A53D09B004E4C60 /* Security.framework */,
 				E4304E818325A7FA37D07E1C /* Social.framework */,
 				FE5047DE94648BF51ED7DC7F /* StoreKit.framework */,

@@ -61,6 +61,10 @@
                     "alignment": "bottom", 
                     "height": 100
                 }
+            },
+            "testdevices" : "kGADSimulatorID",
+            "cache" : {
+                "gameover" : true
             }
         }, 
         "Fyber": {
@@ -180,6 +184,10 @@
                     "alignment": "bottom", 
                     "height": 50
                 }
+            },
+            "testdevices" : "kGADSimulatorID",
+            "cache" : {
+                "gameover" : true
             }
         }, 
         "Fyber": {
