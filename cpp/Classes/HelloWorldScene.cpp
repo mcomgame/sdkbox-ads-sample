@@ -38,11 +38,6 @@ bool HelloWorld::init()
     std::string defaultFont("arial.ttf");
     int defaultFontSize = 32;
     
-    
-    // Pre-cache
-    sdkbox::PluginAdMob::cache("gameover");
-    
-    
     Menu* menu = Menu::create(MenuItemFont::create("Group 1",
                                                    [](Object *obj) {
                                                         sdkbox::PluginSdkboxAds::placement("placement-1");
@@ -67,10 +62,6 @@ bool HelloWorld::init()
                               MenuItemFont::create("AdMob",
                                                    [](Object *obj) {
                                                        sdkbox::PluginSdkboxAds::playAd("AdMob", "gameover");
-                                                   }),
-                              MenuItemFont::create("Fyber Interstital",
-                                                   [](Object *obj) {
-                                                       sdkbox::PluginSdkboxAds::playAd("Fyber", "INTERSTITIAL" );
                                                    }),
                               MenuItemFont::create("Fyber Reward",
                                                    [](Object *obj) {
