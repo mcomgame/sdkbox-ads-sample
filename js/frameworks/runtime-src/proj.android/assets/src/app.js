@@ -71,9 +71,6 @@ var HelloWorldLayer = cc.Layer.extend({
             }, this);
 
         ///// Fyber
-            var b6 = new cc.MenuItemFont("Fyber Interstitial", function () {
-                sdkbox.PluginSdkboxAds.playAd("Fyber", "INTERSTITIAL", {});
-            }, this);
             var b7 = new cc.MenuItemFont("Fyber Reward", function () {
                 sdkbox.PluginSdkboxAds.playAd("Fyber", "REWARDED", {});
             }, this);
@@ -100,7 +97,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 sdkbox.PluginSdkboxAds.placement("placement-2");
             }, this);
 
-        var menu = new cc.Menu(b0, b1, b2, b3, b4, b5, b6, b7, b7, b8, b9, b10, b11, b12);
+        var menu = new cc.Menu(b0, b1, b2, b3, b4, b5, b7, b7, b8, b9, b10, b11, b12);
         menu.x = size.width / 2;
         menu.y = size.height / 2;
         menu.alignItemsVerticallyWithPadding(5);
