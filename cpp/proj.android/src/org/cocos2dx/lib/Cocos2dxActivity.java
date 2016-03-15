@@ -220,7 +220,6 @@ public abstract class Cocos2dxActivity extends Activity implements Cocos2dxHelpe
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         CocosPlayClient.init(this, false);
-
         onLoadNativeLibraries();
         SDKBox.init(this);
 

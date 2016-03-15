@@ -3,11 +3,9 @@
         "SdkboxAds": {
             "units": [
                       "AdColony",
-                      "Bee7",
                       "Chartboost",
                       "AdMob",
-                      "Vungle",
-                      "Fyber"
+                      "Vungle"
                       ],
             "placements": [
                            {

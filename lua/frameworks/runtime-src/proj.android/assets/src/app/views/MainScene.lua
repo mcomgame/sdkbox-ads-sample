@@ -39,9 +39,6 @@ print('3');
                    cc.MenuItemFont:create("Chartboost Rewarded"):onClicked(function()
                         sdkboxads:playAd("Chartboost", "Level Complete", {} )
                     end),
-                    cc.MenuItemFont:create("Fyber Video"):onClicked(function()
-                        sdkboxads:playAd("Fyber", "INTERSTITIAL", {} )
-                    end),
                     cc.MenuItemFont:create("Fyber Reward"):onClicked(function()
                         sdkboxads:playAd("Fyber", "REWARDED", {} )
                     end),
