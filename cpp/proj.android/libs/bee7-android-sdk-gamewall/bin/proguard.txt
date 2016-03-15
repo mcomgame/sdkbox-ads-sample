@@ -1,0 +1,40 @@
+# view res/layout/gamewall_footer.xml #generated:2
+-keep class com.bee7.gamewall.GameWallFooter { <init>(...); }
+
+# view res/layout/gamewall_header.xml #generated:2
+-keep class com.bee7.gamewall.GameWallHeader { <init>(...); }
+
+# view res/layout/gamewall_unit_offer_list_item.xml #generated:2
+-keep class com.bee7.gamewall.GameWallUnitOfferListItem { <init>(...); }
+
+# view res/layout/gamewall_view.xml #generated:2
+-keep class com.bee7.gamewall.GameWallView { <init>(...); }
+
+# view land/res/layout-land/gamewall_video_dialog.xml #generated:102
+# view res/layout/gamewall_video_dialog.xml #generated:99
+-keep class com.bee7.gamewall.video.VideoComponent { <init>(...); }
+
+# view res/layout/gamewall_header.xml #generated:22
+-keep class com.bee7.gamewall.views.AutoResizeSingleLineTextView { <init>(...); }
+
+# view land/res/layout-land/gamewall_video_dialog.xml #generated:108
+# view land/res/layout-land/gamewall_video_dialog.xml #generated:42
+# view land/res/layout-land/gamewall_video_dialog.xml #generated:82
+# view land/res/layout-land/gamewall_video_dialog.xml #generated:91
+# view res/layout/gamewall_header.xml #generated:40
+# view res/layout/gamewall_unit_offer_banner.xml #generated:144
+# view res/layout/gamewall_unit_offer_banner.xml #generated:195
+# view res/layout/gamewall_unit_offer_banner.xml #generated:38
+# view res/layout/gamewall_unit_offer_banner.xml #generated:88
+# view res/layout/gamewall_unit_offer_list_item.xml #generated:29
+# view res/layout/gamewall_unit_offer_list_item.xml #generated:64
+# view res/layout/gamewall_unit_offer_list_item.xml #generated:77
+# view res/layout/gamewall_video_component.xml #generated:36
+# view res/layout/gamewall_video_component.xml #generated:4
+# view res/layout/gamewall_video_component.xml #generated:45
+# view res/layout/gamewall_video_dialog.xml #generated:105
+# view res/layout/gamewall_video_dialog.xml #generated:39
+# view res/layout/gamewall_video_dialog.xml #generated:79
+# view res/layout/gamewall_video_dialog.xml #generated:88
+-keep class com.bee7.gamewall.views.Bee7ImageView { <init>(...); }
+

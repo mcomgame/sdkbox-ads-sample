@@ -40,6 +40,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
             onRewardAction: function (ad_unit_id, zone_place_location, reward_amount_float, reward_succeed_bool) {
                 cc.log("OnRewardAction from unit: " + ad_unit_id + " reward:" + zone_place_location + " amount:" + reward_amount_float + " success:" + reward_succeed_bool);
+                                                                                      menu.x=0;
             }
 
         });
@@ -97,7 +98,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 sdkbox.PluginSdkboxAds.placement("placement-2");
             }, this);
 
-        var menu = new cc.Menu(b0, b1, b2, b3, b4, b5, b7, b7, b8, b9, b10, b11, b12);
+        var menu = new cc.Menu(b0, b1, b2, b3, b4, b5, b7, b8, b9, b10, b11, b12);
         menu.x = size.width / 2;
         menu.y = size.height / 2;
         menu.alignItemsVerticallyWithPadding(5);

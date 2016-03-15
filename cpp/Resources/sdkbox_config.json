@@ -1,6 +1,7 @@
 {
     "android": {
         "SdkboxAds": {
+            "debug" : true,
             "units": [
                       "AdColony",
                       "Bee7",
