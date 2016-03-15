@@ -35,12 +35,13 @@ var HelloWorldLayer = cc.Layer.extend({
         sdkbox.PluginSdkboxAds.setListener({
 
             onAdAction: function (ad_unit_id, zone_place_location, ad_action_number) {
+// warn. log does not work.
                 cc.log("OnAdAction from unit: " + ad_unit_id + " " + zone_place_location + " " + ad_action_number);
             },
 
             onRewardAction: function (ad_unit_id, zone_place_location, reward_amount_float, reward_succeed_bool) {
+// warn. log does not work.
                 cc.log("OnRewardAction from unit: " + ad_unit_id + " reward:" + zone_place_location + " amount:" + reward_amount_float + " success:" + reward_succeed_bool);
-                                                                                      menu.x=0;
             }
 
         });
